@@ -1,0 +1,33 @@
+[
+    {
+        "mood": "Relax",
+        "code": 1,
+        "image": "test"
+    },
+    {
+        "mood": "Natura & Avventura",
+        "code": 2,
+        "image": "test"
+    },
+    {
+        "mood": "Monumenti & Storia",
+        "code": 3,
+        "image": "test"
+    },
+    {
+        "mood": "Città & Cultura",
+        "code": 4,
+        "image": "test"
+    },
+    {
+        "mood": "Party & Nightlife",
+        "code": 5,
+        "image": "test"
+    },
+    {
+        "mood": "Romantico",
+        "code": 6,
+        "image": "test"
+    }
+
+]

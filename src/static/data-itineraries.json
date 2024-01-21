@@ -1,0 +1,151 @@
+{
+    "itineraries": [
+      {
+        "id": 1,
+        "image": "image_path_for_bangkok",
+        "title": "Fase 1: Bangkok",
+        "city": "Bangkok",
+        "price_range": "$",
+        "days": 4,
+        "review": "Use public transportation (BTS, MRT) and taxis for city travel.",
+        "rating": null,
+        "activities": [
+          {
+            "id": 1,
+            "title": "Giorno 1",
+            "details": [
+              {
+                "time": "Mattina",
+                "title": "Visita il Grand Palace.",
+                "description": "Un magnifico esempio di architettura tailandese e l'ex residenza dei Re della Thailandia. Esplora i dettagli intricati e la rilevanza storica.",
+                "duration": "2-3 ore",
+                "cost": "$15",
+                "category": "cultura",
+                "mood": ["01", "02", "03"],
+                "city": "Bangkok"
+              },
+              {
+                "time": "Pomeriggio",
+                "title": "Esplora Wat Pho e Wat Arun",
+                "description": "Esplora Wat Pho e Wat Arun, noti per il loro gigantesco Buddha sdraiato e il Tempio dell'Alba, che offre una splendida vista sul fiume.",
+                "duration": "2-3 ore",
+                "cost": "$10",
+                "category": "cultura",
+                "mood": ["01", "02", "03"],
+                "city": "Bangkok"
+              },
+              {
+                "time": "Sera",
+                "title": "Goditi la cena da Thip Samai",
+                "description": "Goditi la cena da Thip Samai, un famoso ristorante noto per il suo delizioso Pad Thai.",
+                "duration": "1-2 ore",
+                "cost": "$10",
+                "category": "cibo",
+                "mood": ["01", "02", "03"],
+                "city": "Bangkok"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Giorno 2",
+            "details": [
+              {
+                "time": "Mattina",
+                "description": "Test giorno 2",
+                "duration": "2-3 ore",
+                "cost": "$15",
+                "category": "cultura",
+                "city": "Bangkok"
+          
+              },
+              {
+                "time": "Pomeriggio",
+                "description": "Test giorno 2",
+                "duration": "2-3 ore",
+                "cost": "$10",
+                "category": "cultura",
+                "city": "Bangkok"
+              },
+              {
+                "time": "Sera",
+                "description": "Test giorno 2",
+                "duration": "1-2 ore",
+                "cost": "$10",
+                "category": "cibo",
+                "city": "Bangkok"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Giorno 3",
+            "details": [
+              {
+                "time": "Mattina",
+                "description": "Test giorno 3",
+                "duration": "2-3 ore",
+                "cost": "$15",
+                "category": "cultura",
+                "city": "Bangkok"
+              },
+              {
+                "time": "Pomeriggio",
+                "description": "Test giorno 3",
+                "duration": "2-3 ore",
+                "cost": "$10",
+                "category": "cultura",
+                "city": "Bangkok"
+              },
+              {
+                "time": "Sera",
+                "description": "Test giorno 3",
+                "duration": "1-2 ore",
+                "cost": "$10",
+                "category": "cibo",
+                "city": "Bangkok"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "image": "image_path_for_chiang_mai",
+        "title": "Fase 2: Chiang Mai",
+        "city": "Chiang Mai",
+        "price_range": "$$",
+        "days": 4,
+        "review": "Use tuk-tuk, songthaew, and taxis for city travel.",
+        "rating": null,
+        "activities": [
+          {
+            "id": 5,
+            "title": "Giorno 5",
+            "details": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "image": "image_path_for_krabi",
+        "title": "Fase 3: Krabi",
+        "city": "Krabi",
+        "price_range": "$$$",
+        "days": 4,
+        "review": "Use long-tail boats and taxis for island transportation.",
+        "rating": null,
+        "activities": [
+          {
+            "id": 9,
+            "title": "Giorno 9",
+            "details": [
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
