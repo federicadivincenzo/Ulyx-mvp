@@ -1,5 +1,5 @@
 <script setup>
-import { ref, inject, onMounted } from 'vue';
+import { ref, inject, onMounted, watch } from 'vue';
 import ActivityCard from '../components/ActivityCard.vue';
 import GoBackIcon from '../assets/GoBackIcon.vue';
 import { useRouter } from 'vue-router'
@@ -13,8 +13,16 @@ const myItinerary = inject('itineraryArray')
 const activities = ref([])
 const showDropdown = ref(false)
 
+
+// whenever question changes, this function will run
+watch(myItinerary.value, (newArray, oldArray) => {
+    console.log('change')
+    getActivities()
+   
+})
+
+
 onMounted(() => {
-    
     getActivities()
     console.log(activities.value)
 })
@@ -29,7 +37,7 @@ function getActivities() {
 </script>
 
 <template>
-    <div class="container">
+    <div class="container h-full relative">
         <div class="flex gap-4">
             <GoBackIcon @click="router.back()"></GoBackIcon>
             <p class="text-2xl">Activities</p>
@@ -37,7 +45,9 @@ function getActivities() {
             
         {{ activities }}
         <template v-for="activity in activities">
-            <ActivityCard :activity="activity"></ActivityCard>
+            <Transition>
+                <ActivityCard :activity="activity"></ActivityCard>
+            </Transition>
         </template>
         <div class="flex align-center justify-between">
             <Basebutton>✨ Lasciati ispirare</Basebutton>
@@ -56,5 +66,15 @@ function getActivities() {
   gap: 1em;
   padding: 1.5em 1em;
   margin-bottom: 3em;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
 }
 </style>

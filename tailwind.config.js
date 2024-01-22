@@ -14,7 +14,11 @@ export default {
       'mid-blue': '#23436D',
       'card-blue': '#151D29'
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        '3xl': '-1px -9px 64px -21px  rgba(0,0,0,1)',
+      }
+    },
   },
   plugins: [],
 }
