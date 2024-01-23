@@ -11,7 +11,7 @@ provide('itineraryArray', myItinerary)
 </script>
 
 <template>
-  <div class="w-full">
+  <div class="w-full relative">
     {{ activity }}
     <router-view />
     <BottomNavbar></BottomNavbar>
