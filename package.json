@@ -8,10 +8,11 @@
     "dev": "vite",
     "build": "vite build --base=./",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "dotenv": "^16.4.1",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },
