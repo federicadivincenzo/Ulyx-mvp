@@ -14,6 +14,10 @@ dbConnect()
 
 //MIDDLEWEARES
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
 app.use((req, res, next) => {
   console.log('hello from middleware')
   next()
